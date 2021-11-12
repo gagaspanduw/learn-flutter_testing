@@ -48,6 +48,7 @@ class _OperationsTabState extends State<OperationsTab> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           TextField(
+            key: Key('Input1'),
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Input #1',
@@ -81,6 +82,7 @@ class _OperationsTabState extends State<OperationsTab> {
             ),
           ),
           TextField(
+            key: Key('Input2'),
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Input #2',
